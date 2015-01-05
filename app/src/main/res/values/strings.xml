@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Meteo Pagnacco</string>
+    <string name="title_item_detail">Item Detail Tes</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="Update_Day">Last Update the </string>
+    <string name="Update_Time"> at </string>
+    <string name="Current_Condition">Current Condition</string>
+    <string name="Daily_Stats">Daily Statistics</string>
+    <string name="Graphs">Graphs</string>
+    <string name="Under_Dev">On Work</string>
+    <string name="Under_Dev1">Ops! This page is still under construction</string>
+    <string name="Under_Dev2">We apologie for the missing feature</string>
+    <string name="wid_upd_toast">Updating MeteoPagnacco widget</string>
+    <string name="Temp_graph">Temperature Graph</string>
+    <string name="Temp">Temperature</string>
+    <string name="Hum_graph">Umidity Graph</string>
+    <string name="Hum">Umidity</string>
+    <string name="Bar_graph">Atmospheric Pressure Graph</string>
+    <string name="Bar">Atmospheric Pressure</string>
+    <string name="Wspeed_graph">Wind Speed Graph</string>
+    <string name="Wspeed">Wind Speed</string>
+    <string name="more_graph">Change Graphs</string>
+    <string name="more_graph_1">Temperature and Humidity</string>
+    <string name="more_graph_2">Pressure and Wind Speed</string>
+    
+
+</resources>

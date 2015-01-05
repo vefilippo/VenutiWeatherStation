@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentTop="false"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true" >
+
+        <RelativeLayout
+            android:id="@+id/Cur_Temp_Cont"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/Current_Temp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:maxLines="1"
+                android:shadowColor="@color/dark_blu"
+                android:shadowRadius="10"
+                android:text="27 °C"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/blu"
+                android:textSize="55dp"
+                android:textStyle="bold"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/Cur_Min_Temp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/Current_Temp"
+                android:layout_alignBottom="@+id/Current_Temp"
+                android:layout_toRightOf="@+id/Current_Temp"
+                android:paddingLeft="5dp"
+                android:text="15 °C"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/light_gray"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Cur_Max_Temp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/Cur_Min_Temp"
+                android:layout_toRightOf="@+id/Current_Temp"
+                android:clickable="false"
+                android:contentDescription="Maximum Temp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="5dp"
+                android:text="18 °C"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/light_gray"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/Cur_Wind_Cont"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/Cur_Temp_Cont"
+            android:paddingTop="10dp" >
+
+            <TextView
+                android:id="@+id/Cur_WSpeed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:shadowColor="@color/dark_blu"
+                android:shadowRadius="10"
+                android:text="60 Km/hr"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/blu"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:typeface="normal" />
+
+            <TextView
+                android:id="@+id/Cur_WDir"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/Cur_WSpeed"
+                android:layout_alignBottom="@+id/Cur_WSpeed"
+                android:layout_toRightOf="@+id/Cur_WSpeed"
+                android:maxLines="1"
+                android:paddingLeft="5dp"
+                android:text="NNW"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/light_gray"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/Cur_Hum_Cont"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Cur_Wind_Cont"
+            android:layout_marginRight="83dp"
+            android:paddingTop="10dp" >
+
+        <TextView
+            android:id="@+id/Cur_Hum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:maxLines="1"
+            android:shadowColor="@color/dark_blu"
+            android:shadowRadius="10"
+            android:text="80 %"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/blu"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:typeface="normal" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/Cur_Bar_Cont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Cur_Hum_Cont"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:id="@+id/Cur_Bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:maxLines="1"
+            android:shadowColor="@color/dark_blu"
+            android:shadowRadius="10"
+            android:text="1200 hPa"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/blu"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:typeface="normal" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/Rain_Rate_Cont"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            android:layout_below="@+id/Cur_Bar_Cont"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:id="@+id/Rain_Rate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:maxLines="1"
+            android:shadowColor="@color/dark_blu"
+            android:shadowRadius="10"
+            android:text="200 mm/hr"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/blu"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:typeface="normal" />
+    </RelativeLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/Cur_Last_Upd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="Last Update: 12/12/2099 at 13:00"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/light_gray" />
+
+</RelativeLayout>

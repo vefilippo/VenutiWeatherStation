@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Meteo Pagnacco</string>
+    <string name="title_item_detail">Item Detail Tes</string>
+    <string name="settings">Impostazioni</string>
+    <string name="about">Su di noi</string>
+    <string name="Update_Day">Ultimo aggiornamento il </string>
+    <string name="Update_Time"> alle </string>
+    <string name="Current_Condition">Situazione Attuale</string>
+    <string name="Daily_Stats">Statistiche di oggi</string>
+    <string name="Graphs">Grafici</string>
+    <string name="Under_Dev">In sviluppo</string>
+    <string name="Under_Dev1">Ops! Questa pagina è ancora in fase di sviluppo</string>
+    <string name="Under_Dev2">Ci scusiamo per la feature mancante</string>
+    <string name="wid_upd_toast">Aggiornamento Widget MeteoPagnacco</string>
+    <string name="Temp_graph">Grafico Temperatura</string>
+    <string name="Temp">Temperatura</string>
+    <string name="Hum_graph">Grafico Umidità</string>
+    <string name="Hum">Umidità</string>
+    <string name="Bar_graph">Grafico Pressione Atmosferica</string>
+    <string name="Bar">Pressione Atmosferica</string>
+    <string name="Wspeed_graph">Grafico Velocità del Vento</string>
+    <string name="Wspeed">Velocità Vento</string>
+    <string name="more_graph">Cambia Grafico</string>
+    <string name="more_graph_1">Temperatura e Umidità</string>
+    <string name="more_graph_2">Pressione e Velocità del Vento</string>
+    <string name="WDir_graph">Grafico Direzione del Vento</string>
+    <string name="WDir">Direzione del Vento</string>
+
+</resources>

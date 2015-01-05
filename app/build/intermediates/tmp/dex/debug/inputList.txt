@@ -1,0 +1,5 @@
+/Users/Filippo/AndroidstudioProjects/VenutiWeatherStation_v2/VenutiWeatherStation_v2/app/build/intermediates/classes/debug
+/Users/Filippo/AndroidstudioProjects/VenutiWeatherStation_v2/VenutiWeatherStation_v2/app/build/intermediates/pre-dexed/debug/GraphView-3.0-5f48e5cf3c58acb42045f4d5d240a062da25ce87.jar
+/Users/Filippo/AndroidstudioProjects/VenutiWeatherStation_v2/VenutiWeatherStation_v2/app/build/intermediates/pre-dexed/debug/classes-9fc4c56ed66d62c758f2cc163332558ac0310c11.jar
+/Users/Filippo/AndroidstudioProjects/VenutiWeatherStation_v2/VenutiWeatherStation_v2/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-7e3d1d0aa7eaacd28107d40747127e501d3d8083.jar
+/Users/Filippo/AndroidstudioProjects/VenutiWeatherStation_v2/VenutiWeatherStation_v2/app/build/intermediates/pre-dexed/debug/mpandroidchartlibrary-1-7-4-b8486a2d7461e68e2a5edfcdc38778dd2a1744e1.jar
