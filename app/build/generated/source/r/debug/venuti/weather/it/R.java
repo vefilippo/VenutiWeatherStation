@@ -261,7 +261,6 @@ containing a value of this type.
         public static final int Wspeed=0x7f07000e;
         public static final int Wspeed_graph=0x7f07000f;
         public static final int about=0x7f070010;
-        public static final int aboutus=0x7f07001a;
         public static final int app_name=0x7f070011;
         public static final int more_graph=0x7f070012;
         public static final int more_graph_1=0x7f070013;
