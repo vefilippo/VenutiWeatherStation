@@ -1,5 +1,5 @@
-/Users/Filippo/AndroidstudioProjects/VenutiWeatherStation_v2/VenutiWeatherStation_v2/app/build/intermediates/classes/release
-/Users/Filippo/AndroidstudioProjects/VenutiWeatherStation_v2/VenutiWeatherStation_v2/app/build/intermediates/pre-dexed/release/GraphView-3.0-5f48e5cf3c58acb42045f4d5d240a062da25ce87.jar
-/Users/Filippo/AndroidstudioProjects/VenutiWeatherStation_v2/VenutiWeatherStation_v2/app/build/intermediates/pre-dexed/release/classes-9fc4c56ed66d62c758f2cc163332558ac0310c11.jar
-/Users/Filippo/AndroidstudioProjects/VenutiWeatherStation_v2/VenutiWeatherStation_v2/app/build/intermediates/pre-dexed/release/support-v4-18.0.0-7e3d1d0aa7eaacd28107d40747127e501d3d8083.jar
-/Users/Filippo/AndroidstudioProjects/VenutiWeatherStation_v2/VenutiWeatherStation_v2/app/build/intermediates/pre-dexed/release/mpandroidchartlibrary-1-7-4-b8486a2d7461e68e2a5edfcdc38778dd2a1744e1.jar
+C:\Users\Download\Documents\VenutiWeatherStation\app\build\intermediates\classes\release
+C:\Users\Download\Documents\VenutiWeatherStation\app\build\intermediates\pre-dexed\release\GraphView-3.0-0d883e375135c2b95cd43cdac2ef0bcefc5f7395.jar
+C:\Users\Download\Documents\VenutiWeatherStation\app\build\intermediates\pre-dexed\release\classes-3d1bf8b0253e1bf68c15bbf31cb874158f2e728d.jar
+C:\Users\Download\Documents\VenutiWeatherStation\app\build\intermediates\pre-dexed\release\support-v4-18.0.0-82c5f0bc0e912d27b9e7def11b8efd6fa7850847.jar
+C:\Users\Download\Documents\VenutiWeatherStation\app\build\intermediates\pre-dexed\release\mpandroidchartlibrary-1-7-4-f4869092fd32d2871e33208fa85b781936444c39.jar

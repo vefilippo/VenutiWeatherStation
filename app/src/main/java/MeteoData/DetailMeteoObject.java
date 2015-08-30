@@ -78,7 +78,7 @@ public class DetailMeteoObject {
 	public String toString(){
 		String res = "";
 		res += "Date: " + this.meas_date + "\n";
-		res += "Temp: " + this.temp + " ¡C\n"; 
+		res += "Temp: " + this.temp + " Â°C\n";
 		return res;
 	}
 
